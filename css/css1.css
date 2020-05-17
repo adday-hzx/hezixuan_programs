@@ -1,0 +1,212 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: rgb(244,244,246);
+    /*height: 920px;*/
+}
+header{
+    background: rgb(40,133,202);
+    width: 100%;
+    height: 46px;
+    color: white;
+    text-align: center;
+    line-height: 44px;
+    font-size: 18px;
+    position: fixed;
+    left: 0;
+    top: 0;
+}
+.part{
+    margin-top: 46px;
+    height: 780px;
+}
+.sec1{
+    background: rgb(244,244,246);
+    height: 495px;
+}
+.banner{
+    width: 100%;
+    height: auto;
+}
+
+/*页面1开始*/
+
+
+.sec1 .ul0{
+    height:86px;
+    background-color: white;
+    margin-bottom: 10px;
+    padding: 15px 0;
+    font-size: 18px;
+}
+.sec1 .ul0 li{
+    text-align: center;
+    display: inline-block;
+    width: 30%;
+}
+.sec1 .ul0 li span{
+    display: block;
+}
+.sec1 .ul1{
+    margin-bottom: 0;
+}
+/*页面1结束*/
+
+/*页面2开始*/
+.part .tile{
+    height: 50px;
+    width: 100%;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bolder;
+    line-height: 40px;
+    padding-top: 10px;
+}
+.page21_out{
+    text-align: center;
+}
+
+.part .tile span{
+    display: inline-block;
+    width: 30%;
+}
+.sec1 .page21_out img{
+    display: inline-block;
+    width: 100%;
+    height: auto;
+}
+.page21_part1 p{
+    color: gray;
+}
+
+.page21_part2 .div_test{
+    padding: 0 25px;
+    line-height: 30px;
+}
+.page21_part2 .div_test p{
+    font-size: 15px;
+    color: gray;
+    text-align: left;
+}
+/*页面2结束*/
+
+
+/*页面3开始*/
+.page3_img2{
+    width: 95%;
+    height: auto;
+    margin: 25px 10px;
+
+}
+/*页面3结束*/
+
+/*页面4开始*/
+
+.sec1 .page4_test{
+    width: 90%;
+    height: 100%;
+    background: rgb(244,244,246);
+    margin: 22px;
+}
+.comp_txt{
+    color: red;
+    margin-bottom: 20px;
+}
+.page4_test b{
+    line-height: 30px;
+    font-size: 18px;
+}
+.page4_test div{
+    line-height: 30px;
+    text-indent: 2em;
+}
+/*页面4结束*/
+
+
+/*页面5开始*/
+.bgimg{
+    background: url("../Resource/banner5.png") no-repeat;
+    background-size: contain;
+    width: 484px;
+    height: 300px;
+}
+
+.bgimg .go_in{
+    text-align: center;
+    padding-top: 80px;
+}
+.go_in h3{
+    margin: 10px;
+}
+.go_in button{
+    background: cornflowerblue;
+    padding: 3px 10px;
+    border: none;
+}
+.ul_5{
+    height: 100%;
+    width: 100%;
+}
+
+.ul_5 ul{
+    height: 100%;
+    width: 100%;
+    font-size: 18px;
+    font-weight: bold;
+
+}
+
+.ul_5 ul li{
+    border: solid gray 1px;
+    display: block;
+    height: 30px;
+    width: 80%;
+    margin: 15px 28px;
+    background: white;
+    padding: 15px 20px;
+    position: relative;
+    border-radius: 8px;
+}
+.ul_5 .left_img{
+    position: absolute;
+    left: 15px;
+    top: 20px;
+}
+.ul_5 .txt{
+    position: absolute;
+    top: 18px;
+    left: 50px;
+}
+.ul_5 .right_img{
+    position: absolute;
+    right: 15px;
+    top: 20px;
+}
+/*页面5结束*/
+
+footer{
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    color: white;
+    font-size: 12px;
+    padding: 10px;
+}
+
+footer ul{
+    height: 45px;
+    padding-top: 5px;
+}
+
+footer ul li{
+    text-align: center;
+    display: inline-block;
+    width: 19%;
+}
+
+footer ul li img{
+    width: 18px;
+}

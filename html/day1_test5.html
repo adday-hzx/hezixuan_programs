@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
+
+    <title>5</title>
+    <link rel="short icon" href="../Resource/icon.png">
+    <link rel="stylesheet" href="../css/css1.css">
+</head>
+<body>
+<header>
+    <span>我的小滴</span>
+</header>
+
+<div class="part">
+    <section class="bgimg">
+        <div class="go_in">
+            <img src="../Resource/head.png">
+            <h3 id="m_username"></h3>
+            <script>
+                document.getElementById("m_username").innerHTML=window.localStorage.getItem("userName");
+            </script>
+            <button id="exit">退出登录</button>
+            <script>
+                var btn  =  document.querySelector("#exit");
+                btn.onclick = function(){
+                    window.localStorage.removeItem("userName");
+                    location.href = "login.html";
+                }
+            </script>
+        </div>
+
+    </section>
+
+    <section class="sec1">
+        <div class="ul_5">
+            <ul>
+                <li> <span class="left_img"> <img  src="../Resource/gr_1.png"></span> <span class="txt">我的客户</span> <span class="right_img"> <img  src="../Resource/jt.png"> </span></li>
+                <li> <span class="left_img"> <img  src="../Resource/gr_1.png"></span> <span class="txt">我的客户</span> <span class="right_img"> <img src="../Resource/jt.png"> </span></li>
+                <li> <span class="left_img"> <img src="../Resource/gr_1.png"></span> <span class="txt">我的客户</span> <span class="right_img"> <img src="../Resource/jt.png"> </span></li>
+                <li> <span class="left_img"> <img src="../Resource/gr_1.png"></span> <span class="txt">我的客户</span> <span class="right_img"> <img src="../Resource/jt.png"> </span></li>
+                <li> <span class="left_img">  <img src="../Resource/gr_1.png"></span> <span class="txt">我的客户</span><span class="right_img"> <img src="../Resource/jt.png"> </span></li>
+                <li> <span class="left_img"> <img src="../Resource/gr_1.png"></span> <span class="txt">我的客户</span> <span class="right_img"> <img src="../Resource/jt.png"> </span></li>
+            </ul>
+
+        </div>
+    </section>
+
+
+</div>
+
+<footer>
+    <ul>
+        <li><img src="../Resource/nav10.png"><p>小滴服务</p></li>
+        <li><img src="../Resource/nav20.png"><p>企业项目</p></li>
+        <li><img src="../Resource/nav30.png"><p>服务流程</p></li>
+        <li><img src="../Resource/nav40.png"><p>平台风采</p></li>
+        <li><img src="../Resource/nav50.png"><p>我的小滴</p></li>
+    </ul>
+
+</footer>
+</body>
+</html>

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
+
+    <title>1</title>
+        <link rel="short icon" href="../Resource/icon.png">
+        <link rel="stylesheet" href="../css/css1.css">
+</head>
+<body>
+    <header>
+        <span>小滴服务</span>
+    </header>
+
+    <div class="part">
+        <section>
+            <img class="banner" id="bannerImg" src="../Resource/banner-1.png">
+
+            <script>
+                var imgNum=1;
+                var img=document.getElementById("bannerImg");
+                // alert(img.src);
+                function changeImg() {
+                    imgNum++;
+                    if(imgNum>3){
+                        imgNum=1;
+                    }
+                    img.src="../Resource/banner-"+imgNum+".png";
+                }
+                setInterval(changeImg,1000);
+            </script>
+        </section>
+
+        <section class="sec1">
+            <ul class="ul0">
+                <li><img src="../Resource/index1.png">
+                    <span>企业项目</span>
+                </li>
+                <li>
+                    <img src="../Resource/index2.png">
+                    <span>平台风采</span>
+                </li>
+                <li>
+                    <img src="../Resource/index3.png">
+                    <span>报名流程</span>
+                </li>
+            </ul>
+            <ul class="ul0">
+                <li>
+                    <img src="../Resource/index4.png">
+                    <span>客户管理</span>
+                </li>
+                <li>
+                    <img src="../Resource/index5.png">
+                    <span>账务管理</span>
+                </li>
+                <li>
+                    <img src="../Resource/index6.png">
+                    <span>新闻公告</span>
+                </li>
+            </ul>
+            <ul class="ul0">
+                <li>
+                    <img src="../Resource/index7.png">
+                    <span>工程案例</span>
+                </li>
+                <li>
+                    <img src="../Resource/index8.png">
+                    <span>修改密码</span>
+                </li>
+                <li>
+                    <img src="../Resource/index9.png">
+                    <span>会员注册</span>
+                </li>
+            </ul>
+            <ul class="ul1 ul0">
+                <li>
+                    <img src="../Resource/index7.png">
+                    <span>工程案例</span>
+                </li>
+                <li>
+                    <img src="../Resource/index8.png">
+                    <span>修改密码</span>
+                </li>
+                <li>
+                    <img src="../Resource/index9.png">
+                    <span>会员注册</span>
+                </li>
+            </ul>
+        </section>
+
+    </div>
+
+
+    <footer>
+        <ul>
+            <li><img src="../Resource/nav10.png"><p>小滴服务</p></li>
+            <li><img src="../Resource/nav20.png"><p>企业项目</p></li>
+            <li><img src="../Resource/nav30.png"><p>服务流程</p></li>
+            <li><img src="../Resource/nav40.png"><p>平台风采</p></li>
+            <li><img src="../Resource/nav50.png"><p>我的小滴</p></li>
+        </ul>
+
+    </footer>
+</body>
+</html>

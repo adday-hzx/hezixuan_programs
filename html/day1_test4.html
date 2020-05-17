@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
+
+    <title>4</title>
+    <link rel="short icon" href="../Resource/icon.png">
+    <link rel="stylesheet" href="../css/css1.css">
+    <script src="../js/ajax1.js"></script>
+</head>
+<body>
+
+<header>
+    <span>平台风采</span>
+</header>
+
+<div class="part">
+    <section>
+        <img class="banner" src="../Resource/banner4.png">
+    </section>
+
+    <section class="sec1">
+        <div class="page4_test">
+            <h2 class="comp_txt" id="tit"></h2>
+            <hr>
+            <b id="subtitle"></b>
+            <!--<div>华杉科技(北京)有限公司一直秉承“在高薪和经验的路上，我们只做行业第一”, 致力于为整个互联网科技行业输送高级技术人才、做好每一款外包项目。</div>-->
+            <!--<div>华杉科技(北京)有限公司是一家既专注于培养高级IT技术人才，为学员提供定制化IT职业规划方案及意见咨询服务，又是国内领先的智能手机软件外包服务商。公司原东方爱智技术总监，原58同城技术总监共同创立。</div>-->
+            <!--<div>华杉科技(北京)有限公司拥有业内知名的教研团队和雄厚的课程研发能力，课程的快速迭代时刻紧跟当今较为流行的前沿技术、不同行业的外包项目作为支撑，强有力的保证了学员的核心竞争力。强竞争力的一线技术人员和完善的外包服务流程充分保证了每一款项目的顺利执行。</div>-->
+            <div id="info"></div>
+        </div>
+    </section>
+
+
+</div>
+<footer>
+    <ul>
+        <li><img src="../Resource/nav10.png"><p>小滴服务</p></li>
+        <li><img src="../Resource/nav20.png"><p>企业项目</p></li>
+        <li><img src="../Resource/nav30.png"><p>服务流程</p></li>
+        <li><img src="../Resource/nav40.png"><p>平台风采</p></li>
+        <li><img src="../Resource/nav50.png"><p>我的小滴</p></li>
+    </ul>
+
+</footer>
+</body>
+<script>
+
+    respondes("get","aboutus","",function (reStr) {
+        var title_content = document. getElementById("tit");
+        var subTitle_content = document. getElementById ("subtitle");
+        var info_content = document.getElementById("info");
+        title_content.innerHTML=reStr.title;
+        subTitle_content.innerHTML = reStr.subTitle;
+        info_content.innerHTML = reStr.info;
+    });
+
+</script>
+
+</html>
